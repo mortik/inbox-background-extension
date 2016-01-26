@@ -1,0 +1,18 @@
+{
+  "extName": {
+    "message": "Inbox Background",
+    "description": "Extension Name"
+  },
+  "extDescription": {
+    "message": "Change the Background of Google Inbox.",
+    "description": "Extension Description"
+  },
+  "placeholder": {
+    "message": "Paste a Link (Dropbox etc.) to your Wallpaper",
+    "description": "Backroung Url Input Placeholder"
+  },
+  "popupTitle": {
+    "message": "Update the Background URL",
+    "description": "Popup Page Title"
+  }
+}

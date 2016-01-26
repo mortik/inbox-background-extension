@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>__MSG_popupTitle__</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+      input {
+        min-width: 350px;
+        padding-right: 25px !important;
+      }
+
+      input.invalid {
+        border-color: red !important;
+      }
+
+      button.close-icon {
+      	border:1px solid transparent;
+      	background-color: transparent;
+      	display: inline-block;
+      	vertical-align: middle;
+        outline: 0;
+        cursor: pointer;
+        position: absolute;
+        color: gray;
+        top: 4px;
+        right: 40px;
+        z-index: 100;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <form id="inbox-background-url-form" name="inbox_background_url">
+      <div class="input-group">
+        <input type="text" class="form-control" autocomplete="off" id="background-url-input" name="background_url"/>
+        <button id="reset-form-button" class="close-icon hide" type="reset">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="input-group-btn">
+          <button id="save-form-button" class="btn btn-primary">
+            <i class="fa fa-save"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

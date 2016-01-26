@@ -1,0 +1,18 @@
+{
+  "extName": {
+    "message": "Inbox Background",
+    "description": "Extension Name"
+  },
+  "extDescription": {
+    "message": "Passe Google Inbox mit deinem eigenen Hintergrundbild an.",
+    "description": "Extension Description"
+  },
+  "placeholder": {
+    "message": "Füge einen Link (Dropbox etc.) deines Bildes ein",
+    "description": "Backroung Url Input Placeholder"
+  },
+  "popupTitle": {
+    "message": "Background URL anpassen",
+    "description": "Popup Page Title"
+  }
+}
