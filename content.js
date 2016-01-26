@@ -23,6 +23,11 @@ if (backgroundUrl) {
         background-size: cover !important;\
         background-image: url("' + backgroundUrl + '") !important;\
       }\
+      #aVMuZe:not(.m):not(.M) .ix.r {\
+        background-image: none !important;\
+        background-color: #7baaf7 !important;\
+        border-radius: 3px;\
+      }\
       img[src*="ic_zero_inbox"] {\
         display: none !important;\
       }',
