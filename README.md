@@ -1,1 +1,2 @@
-# inbox-background-extension
+# Inbox Background
+## A Google Chrome Extension
