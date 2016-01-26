@@ -18,7 +18,10 @@ function isValidURL(url) {
 
 document.addEventListener('DOMContentLoaded', function () {
   var form = document.getElementById('inbox-background-url-form'),
-      input = document.getElementById('background-url-input');
+      input = document.getElementById('background-url-input'),
+      resetBtn = document.getElementById('reset-form-button'),
+      saveBtn = document.getElementById('save-form-button');
+
 
 
   input.placeholder = chrome.i18n.getMessage("placeholder");
@@ -29,11 +32,9 @@ document.addEventListener('DOMContentLoaded', function () {
   }, function(cookie) {
     if (cookie) {
       input.value = cookie.value;
+      resetBtn.className = resetBtn.className.replace(/\shide/,'');
     }
   });
-  var resetBtn = document.getElementById('reset-form-button'),
-      saveBtn = document.getElementById('save-form-button');
-
 
   input.addEventListener('keyup', function(evt) {
     if (input.value) {
