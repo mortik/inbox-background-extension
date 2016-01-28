@@ -30,6 +30,9 @@ if (backgroundUrl) {
       }\
       img[src*="ic_zero_inbox"] {\
         display: none !important;\
+      }\
+      img[src*="ic_zero_pinned"] {\
+        padding-top: 10px !important;\
       }',
       head = document.head || document.getElementsByTagName('head')[0],
       style = document.createElement('style');
